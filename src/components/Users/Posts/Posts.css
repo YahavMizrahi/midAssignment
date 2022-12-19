@@ -1,0 +1,45 @@
+.posts {
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  border: solid 1px;
+  overflow-wrap: break-word;
+  width: 90%;
+  justify-self: center;
+
+}
+
+.rightNav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: orange;
+  margin-bottom: 10px;
+}
+
+
+.posts-s {
+  overflow-y: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  align-content: center;
+
+
+}
+
+h4 {
+  margin: 0;
+}
